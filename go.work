@@ -1,8 +1,8 @@
 go 1.19
 
-use ./day7/consistenthash
-use ./day7/singleFlight
-use ./day7/lru
-use ./day7/geeCache
-use ./day7/groupCachePb
-use ./day7
+use ./groupCache/consistenthash
+use ./groupCache/singleFlight
+use ./groupCache/lru
+use ./groupCache/geeCache
+use ./groupCache/groupCachePb
+use ./groupCache
