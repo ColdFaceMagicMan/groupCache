@@ -1,0 +1,10 @@
+syntax = "proto3";
+package testProto;
+option go_package = "./testProto";
+
+// this is a comment
+message Student {
+  string name = 1;
+  bool male = 2;
+  repeated int32 scores = 3;
+}
